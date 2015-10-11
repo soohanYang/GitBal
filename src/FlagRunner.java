@@ -13,7 +13,7 @@ public class FlagRunner implements Runnable {
 			try {
 				synchronized (this) {
 					if(!Flag.isWait) {
-						wait(7000);
+						wait(5000);
 					}	
 				}			
 			} catch (InterruptedException e) {
